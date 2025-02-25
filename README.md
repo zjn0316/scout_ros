@@ -1,10 +1,11 @@
+# Scout移动机器人的ROS功能包
 # ROS Packages for Scout Mobile Robot
 
 ## Packages
 
 This repository contains minimal packages to control the scout robot using ROS. 
 
-* scout_bringup: launch and configuration files to start ROS nodes 
+* scout_bringup: launch 和 configuration files to start ROS nodes 
 * scout_base: a ROS wrapper around [ugv_sdk](https://github.com/agilexrobotics/ugv_sdk) to monitor and control the scout robot
 * scout_description: URDF model for the mobile base, a sample urdf (scout_description/sample/scout_v2_nav.xacro) is provided for customized robot with addtional sensors
 * scout_msgs: scout related message definitions
